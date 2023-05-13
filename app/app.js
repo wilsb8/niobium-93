@@ -12,6 +12,7 @@ app.use(express.static('views'));
 
 // Nodemailer 
 
+// Finally
 
 app.use('/', router);
 
