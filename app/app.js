@@ -9,7 +9,7 @@ app.engine('ejs', require('ejs').__express);
 app.use(express.static('public'));
 app.use(express.static('views'));
 
-const router = require('../routes/router')
+const router = require('../routes/router') // this is how you find the routes folder
 app.use('/', router);
 
 module.exports = app;
